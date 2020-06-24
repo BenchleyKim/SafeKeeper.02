@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_markername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="위험지역 이름을 입력하세요"
+        android:ems="10"
+         />
+
+    <EditText
+        android:id="@+id/et_makersnippet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="위험지역 설명을 입력하세요"
+
+        android:ems="10"
+       />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_setmarkeroption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/btn_cancelmarker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+    </LinearLayout>
+
+
+</LinearLayout>

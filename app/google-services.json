@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "555316070757",
+    "firebase_url": "https://safekeeper-258317.firebaseio.com",
+    "project_id": "safekeeper-258317",
+    "storage_bucket": "safekeeper-258317.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555316070757:android:1b37c553b7e7e50b93798c",
+        "android_client_info": {
+          "package_name": "com.example.safekeeper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555316070757-8s0a63m0blqut530oks57cqniig2ko7u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.safekeeper",
+            "certificate_hash": "45248e84099b023e56a457090da7f62ea05838a1"
+          }
+        },
+        {
+          "client_id": "555316070757-t403hk9q2jq1jj109qmje49da7f0c60m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqeli39eOmpLSlh4x9pn7z0b3uMbgp2V0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555316070757-t403hk9q2jq1jj109qmje49da7f0c60m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

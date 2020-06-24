@@ -1,0 +1,42 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<com.google.android.material.tabs.TabLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:id="@+id/tabs"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.google.android.material.tabs.TabItem
+        android:id="@+id/tabItem1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="추가한 지역" />
+
+    <com.google.android.material.tabs.TabItem
+        android:id="@+id/tabItem2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="안전 요소" />
+
+    <com.google.android.material.tabs.TabItem
+        android:id="@+id/tabItem3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="자주가는 장소" />
+
+</com.google.android.material.tabs.TabLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_contaioner">
+
+    </FrameLayout>
+
+</LinearLayout>
